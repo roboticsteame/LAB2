@@ -1,0 +1,2 @@
+TARGET = Console
+TEMPLATE = app

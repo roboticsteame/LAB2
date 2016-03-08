@@ -1,0 +1,44 @@
+# built application files
+*.apk
+*.ap_
+*.autosave
+*.user
+*.user.*
+*.google
+*.desktop
+*.orig
+*.pyc
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+build*/
+
+#noUpload
+*nup*
+*autosave*
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+# Android Studio
+/res/drawable*
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iws
+*.ipr
+*~
+*.swp
+*.directory
