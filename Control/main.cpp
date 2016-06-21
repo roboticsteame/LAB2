@@ -31,22 +31,30 @@ int main()
         dir = getch();
         switch(dir){
         case 'w':
-            robot.dStraight(500);
+            robot.dStraight(100);
             break;
         case 'a':
-            //Place turning code here
+            //left
+            robot.dCClockwise(100);
             break;
         case 's':
-            robot.dStraight(-500);
+            robot.dStraight(-100);
             break;
         case 'd':
-            //Place turning code here
+            //clockwise
+            robot.dClockwise(100);
+            break;
+        case 'q':
+            robot.dStraight(0);
             break;
         case '/':
             robot.seekDock();
             break;
         case 'x':
             robot.modesafe();
+            break;
+        case 'i':
+            robot.driveDirect(100, 200);
             break;
         case 'm':
             robot.modefull();
