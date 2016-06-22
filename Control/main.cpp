@@ -56,6 +56,9 @@ int main()
         case 'i':
             robot.driveDirect(100, 200);
             break;
+        case '0':
+            robot.driveDirect(200, 100);
+            break;
         case 'm':
             robot.modefull();
             break;
